@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_lifecycle"
+        android:text="lifecycle（监听activity生命周期）"
+        style="@style/CommStyle" />
+
+    <Button
+        android:id="@+id/btn_livedata"
+        android:text="LiveData（观察者模式数据）"
+        style="@style/CommStyle"/>
+
+    <Button
+        android:id="@+id/btn_viewmodel"
+        android:text="ViewModel（跨组件通讯）"
+        style="@style/CommStyle"/>
+
+    <Button
+        android:id="@+id/btn_room"
+        android:text="Room（数据库框架）"
+        style="@style/CommStyle"/>
+
+    <Button
+        android:id="@+id/btn_paging"
+        android:text="Paging（分页加载，优化性能）"
+        style="@style/CommStyle"/>
+
+    <Button
+        android:id="@+id/btn_navigation"
+        android:text="Navigation（Fragment控制框架）"
+        style="@style/CommStyle"/>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_workmanager"
+        android:text="WorkManager（后台任务管理）"
+        style="@style/CommStyle"/>
+
+</LinearLayout>

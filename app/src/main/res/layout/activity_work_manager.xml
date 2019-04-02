@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkManagerActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_one"
+        android:text="一次性任务,和监听任务状态"
+        style="@style/CommStyle" />
+
+    <Button
+        android:id="@+id/btn_constraint"
+        android:text="任务约束条件"
+        style="@style/CommStyle" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:text="取消任务"
+        style="@style/CommStyle" />
+
+    <Button
+        android:id="@+id/btn_period"
+        android:text="重复执行的任务"
+        style="@style/CommStyle" />
+
+</LinearLayout>
